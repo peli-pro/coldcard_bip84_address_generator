@@ -61,7 +61,7 @@ Testnet addresses should be corret for electrum.
 It seems Wasabi wallet uses a different path for generating testnet addresses, so it might bei that they don't match
 
 
-## Verify that the addresses generated here are correct with Ian Colemans BIP39 Mnemonic code converter
+## Verify that the addresses generated here are correct
 Please verify yourself that this script generates correct addresses.
 1. Compare the generated addresses with  
   * the addresses in your public.txt 
