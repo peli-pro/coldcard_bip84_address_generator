@@ -1,4 +1,15 @@
-# Generate BIP84 addresses for coldcard
+
+## Please switch over to using this updated version:
+
+https://github.com/peli-pro/coldcard_address_generator  
+.  
+.  
+.  
+.  
+.  
+.  
+
+## Generate BIP84 addresses for coldcard
 This litte script will take your coldcard zpub-key and generate a list of recieve and change addresses that you can store somewhere for indipendent verification of the addresses wasabi wallet or electrum creates for you (only native segwit / BIP84).  
 This script is only a litte wrapper around a BIP84 library that can be found here: https://github.com/Anderson-Juhasc/bip84
 
