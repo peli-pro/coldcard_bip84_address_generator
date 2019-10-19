@@ -24,7 +24,7 @@ else if (zpub.substring(0,1)=='v'){
 }
 
 console.log('Addresses for extended account key '+zpub)
-console.log('Recieve Addresses:')
+console.log('receive Addresses:')
 var c
 for (c = 0; c < 50; c++) {
     console.log('Address: '+ad+c, account1.getAddress(c))

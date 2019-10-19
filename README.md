@@ -10,7 +10,7 @@ https://github.com/peli-pro/coldcard_address_generator
 .  
 
 ## Generate BIP84 addresses for coldcard
-This litte script will take your coldcard zpub-key and generate a list of recieve and change addresses that you can store somewhere for indipendent verification of the addresses wasabi wallet or electrum creates for you (only native segwit / BIP84).  
+This litte script will take your coldcard zpub-key and generate a list of receive and change addresses that you can store somewhere for indipendent verification of the addresses wasabi wallet or electrum creates for you (only native segwit / BIP84).  
 This script is only a litte wrapper around a BIP84 library that can be found here: https://github.com/Anderson-Juhasc/bip84
 
 BEFORE YOU TRUST THIS SCRIPT PLEASE DOUBLE CHECK THAT IT WORKS CORRECTLY, SEE THE LAST SECTION !!!!!
@@ -63,7 +63,7 @@ Example:
 ```
 node generate_bip84_addresses.js zpub6rRmr7DviwWPPQFZYgpL7cniK2PCiMSMnMDaKTe37nBFHhKuD9uWeUZbrsoib7PChrvmNiw5uoAyamAFmioZx3uo2BVTKHi6YCRJUhZGHAz  
 ```
-This will generate the first 50 recieve and change addresses.
+This will generate the first 50 receive and change addresses.
 
 ## Testnet
 Switch your Coldcard to testnet and export the public.txt.  
@@ -81,7 +81,7 @@ Please verify yourself that this script generates correct addresses.
   * make the following settings:
   * `Coin: Bitcoin or Bitcoin Testnet`
   * `Derivation Path: choose BIP84`
-  * `External/Internal: 0` (0 generates recieve addresses and 1 generates change addresses)  
+  * `External/Internal: 0` (0 generates receive addresses and 1 generates change addresses)  
   This will generate a bunch of addresses
   * Use `Account Extended Public Key` as the zpub value and run this script
   * Compare the addresses
